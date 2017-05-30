@@ -1,1 +1,95 @@
-111
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击按钮水纹效果</title>
+    <style>
+        .ripple-effect {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn {
+            width: 150px;
+            height: 40px;
+            border: 1px solid #d9d9d9;
+            outline: none; /*轮廓线*/
+            background: #008DC5;
+            color: #fff;
+        }
+
+        /*添加波纹元素*/
+        .ripple {
+            border-radius: 50%;
+            background: rgba(0, 0, 0, .2);
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            position: absolute;
+            opacity: 1;
+        }
+
+        /*添加波纹动画*/
+        .rippleEffect {
+            -webkit-animation: rippleEffect 2s cubic-bezier(0.23, 1, 0.32, 1);
+            animation: rippleEffect 2s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        @keyframes rippleEffect {
+            100% {
+                -webkit-transform: scale(2);
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+
+        .btn-primary .ripple {
+            background:rgba(255,255,255,.4);
+        }
+
+
+    </style>
+</head>
+<body>
+<button class="btn btn-default ripple-effect">点击波纹</button>
+
+<script>
+    window.onload = function () {
+        function ripple(event, $this) {
+            event = event || window.event;
+            //获取鼠标位置
+            var x = event.pageX || document.documentElement.scrollLeft + document.body.scrollLeft + event.clientX;
+            var y = event.pageY || document.documentElement.scrollTop + document.body.scrollTop + event.clientY;
+            var wx = $this.offsetWidth;
+            x = x - $this.offsetLeft - wx / 2;
+            y = y - $this.offsetTop - wx / 2;
+
+            //添加.ripple元素
+            var ripple = document.createElement('span');
+            ripple.className = 'ripple';
+            var firstChild = $this.firstChild;
+            if (firstChild) {
+                $this.insertBefore(ripple, firstChild);
+            } else {
+                $this.appendChild(ripple);
+            }
+            ripple.style.cssText = 'width:' + wx + 'px;height:' + wx + 'px;top:' + y + 'px;left:' + x + 'px';
+            ripple.classList.add('rippleEffect');
+            animationEnd(ripple,
+                    function () {
+                        this.parentNode.removeChild(ripple);
+                    });
+        }
+
+        //添加点击事件
+        var btn = document.querySelectorAll('.ripple-effect');
+        for (var i = 0; i < btn.length; i++) {
+            addEventListener(btn[i], 'click', function (e) {
+                ripple(e, this);
+            });
+        }
+    };
+
+</script>
+</body>
+</html>
+
