@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul {
+            font-size: 14px;
+            line-height: 4em;
+        }
+        li {
+            display: block;
+            text-align: center;
+            margin: 1em;
+        }
+        li span {
+            display: block;
+            width: 6em;
+            background: coral;
+        }
+        li:hover span {
+            transform: rotate(45deg);
+        }
+        .item-2:hover span {
+            transform-origin: 0 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="item-1"><span>中心旋转</span></li>
+        <li class="item-2"><span>左上角旋转</span></li>
+    </ul>
+</body>
+</html>
