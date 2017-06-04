@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul {
+            font-size: 14px;
+            line-height: 4em;
+        }
+        li {
+            display: block;
+            text-align: center;
+            margin: 1em;
+        }
+        li span {
+            display: block;
+            width: 6em;
+            background: coral;
+        }
+        .item-2:hover span {
+            transform: translate(100px, 0); /*平移x，y轴*/
+        }
+        .item-3:hover span {
+            transform: rotate(45deg); /*旋转度数*/
+        }
+        .item-4:hover span {
+            transform: scale(2, 0.5); /*拉伸倍数*/
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="item-1"><span>初始状态</span></li>
+        <li class="item-2"><span>平移</span></li>
+        <li class="item-3"><span>旋转</span></li>
+        <li class="item-4"><span>缩放</span></li>
+    </ul>
+
+
+
+</body>
+</html>
