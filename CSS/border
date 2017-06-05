@@ -1,0 +1,11 @@
+border
+·边框的三个要素
+  border-width: <length> | thin | medium | thick
+  border-style: none | solid | dashed | dotted | double
+  border-color: <color>
+  
+·四个方向
+  border-left
+  border-top
+  border-right
+  border-bottom
