@@ -1,0 +1,17 @@
+Generated Content
+·控制元素
+·   ::before 和 ::after
+·content
+
+
+例子：
+<a href="http://example.com">访问链接</a>
+
+<style>
+  a:before {
+    content:'\2693';
+  }
+  a:after {
+    content:'(' attr(href) ')';
+  }
+</style>
