@@ -1,0 +1,91 @@
+font-family
+使用：
+·使用逗号分隔的字体族名称
+·初始值由浏览器设置决定，可继承
+·英文字体放在中文字体前面（）
+·最后总是添加通用字体族
+
+字体匹配算法：
+1、浏览器先获取一个系统字体列表
+2、对于元素中的每一个字符，使用font-family属性及其他属性进行匹配，如果能匹配就暂定该字体
+3、如果步骤2没有匹配上，选择下一个可选的font-family执行步骤2
+4、如果匹配到一个字体，但是字体中没有该字符，继续对下一个可选的font-family执行步骤2
+5、如果没有匹配到字体，使用浏览器默认的字体。
+
+
+
+font-size
+·定义文字的大小，可使用px、百分比、em等做单位
+·取值：  绝对值xx-small | x-small | small | medium | large | x-large | xx-large      
+         相对值 larger | smaller  
+         长度
+         百分数，相对于父元素计算值
+·初始值为medium（由浏览器设置决定，一般16px），可继承
+
+
+
+font-style
+·定义文字以斜体还是正常方式显示
+·取值： normal ｜ italic ｜ oblique
+·初始值为normal ，可继承
+
+
+
+font-weight
+·定义文字的粗细程度
+·取值：normal ｜ bold ｜ bolder ｜ lighter ｜ 100 ｜ 200 ｜ 。。。。｜ 900
+·取值为normal，可继承
+
+
+
+line-height
+·元素所属的line box所占的高度
+·初始值为normal（具体由浏览器决定），可继承
+·取值：长度，数字，百分比
+·段落文字一般取值1.4-1.8
+
+
+
+font缩写
+斜体，粗细，大小/行高，字体族
+
+
+
+web fonts
+把字体文件放到服务器上，使用服务器上的字体资源
+@font-face ｛
+  .....
+｝
+
+
+链接
+·goole fonts
+·baomitu cdn
+·font spider
+
+
+
+text-align
+·定义文本在容器内的对齐方式
+·取值： left｜right｜center｜justify（两端对齐，分散对齐）
+·初始值由html的dir（direction）属性决定，可继承
+
+
+
+letter-spacing
+·指定字符之间的间距
+·取值： normal｜<length>
+`初始值为normal，可继承
+
+
+
+text-indent
+·指定文本缩进
+·取值：normal｜<length>|<percentage>
+·初始值为0，可继承
+
+
+
+white-space
+·制定空白附如何处理
+·取值： normal｜nowrap｜pre
