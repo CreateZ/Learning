@@ -1,0 +1,63 @@
+布局方法：
+·float
+·position
+·inline-block
+·table
+·flex
+·grid
+
+
+居中：
+-水平居中
+  ·行级元素：text-align：center
+  ·块级元素：margin：auto
+-垂直居中
+  ·单行文字：line-height（和height一样）
+  ·行级盒子：vertical-align：middle
+  ·绝度定位：top：50%；left：50%
+  
+
+table布局：
+·display：table
+·display：table-cell
+·display：table-row
+·display：table-column
+·display：table-column-group
+·display：table-footer-group
+·display：table-header-group
+
+
+Flexbox：正真为解决布局问题而生的规范
+Flexbox可控制子元素：
+  ·水平或垂直排成一行
+  ·控制子元素对齐方式
+  ·控制子元素的宽度/高度
+  ·控制子元素显示顺序
+  ·控制子元素是否折行
+  
+flex-direction
+·字元素排列方向
+·取值： row ｜ row-reverse ｜ column ｜ column-reverse
+
+flex-grow
+·定义每一个子元素在盒子内的弹性
+·拓展盒子剩余空间的能力
+·取值：，默认0
+
+flex-shrink
+·元素收缩的能力
+·取值：，默认1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
