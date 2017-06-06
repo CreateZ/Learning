@@ -1,0 +1,9 @@
+background：
+·background-color
+·background-image
+·background-repeat
+·background-position（css sprites）
+·background-attachment
+·background-size（css3）
+
+缩写形式：color-image-repeat-position
