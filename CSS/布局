@@ -48,6 +48,28 @@ flex-shrink
 ·元素收缩的能力
 ·取值：，默认1
 
+flex-wrap
+·元素在主轴方向排放时，能否换行
+·取值：nowrap ｜ wrap ｜ wrap-reverse
+
+justify-content
+·子元素沿主轴方向的摆放
+·取值： flex-start ｜ flex-end ｜ center ｜ space-between ｜ space-around
+
+align-items
+·在侧轴方向的对齐方式
+·取值：flex-start ｜ flex-end ｜ center ｜ baseline ｜ stretch
+·默认值： stretch
+
+align-self：单独的给子元素设置
+
+align-content
+·多行内容在容器内侧轴方向的对齐
+·取值： flex-start ｜ flex-end ｜ center ｜ space-between ｜ space-around ｜ stretch
+
+order
+·指定摆放时的顺序，从小到大
+·取值：默认0
 
 
 
