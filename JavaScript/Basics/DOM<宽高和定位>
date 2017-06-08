@@ -1,0 +1,5 @@
+clientWidth/clientHeight: 内容的容器内可见宽高
+
+offsetWidth/offsetHeight： 内容的盒子（不包括margin）宽高
+
+scrollWidth/scrollHeight： 内容真正的宽高
