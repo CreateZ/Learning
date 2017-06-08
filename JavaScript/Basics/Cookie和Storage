@@ -1,0 +1,14 @@
+Cookie
+·网站跟踪用户行为，服务器用以标记Session
+·少量数据，跟随HTTP请求（header）发送
+·可以设置过期时间
+·网站Cookie数量有限制
+·支持http-only
+·javascript原生的CookieAPI不好用
+
+
+Storage
+·可以存储的数据量比较大，但仍有限制，别滥用
+·数据格式为字符串，可以用JSON解析
+·有LocalStorage和SessionStorage两种类型，默认无过期时间（可以自己用程序逻辑实现过期时间）
+·并不会随着HTTP请求发送给服务器
