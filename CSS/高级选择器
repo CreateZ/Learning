@@ -1,0 +1,47 @@
+：target伪类
+  ·表示元素被hash匹配时的状态
+  ·比如URL是/post/a#heading时，name为heading的元素处于被target的状态
+  
+  
+：lang伪类
+  ·元素匹配上指定语言时的状态
+  ·浏览器通过lang属性获得语言信息
+  
+  
+：nth-child（n从0开始）
+  ·通过：nth-child（an+b）选中某些子元素
+  ·例如：nth-child（3n）选中第3、6、9...个子元素
+  ·a可以为负数
+  
+  
+：nth-of-type（区分标签类型）
+
+
+：first-child，last-child
+
+
+：not（）
+  ·排除匹配的元素
+  ·比如img：not（[alt]）选择没有写alt属性的图片
+  
+  
+
+其他选择器
+  ：nth-last-child（）
+  ：nth-last-of-type（）
+  ：first-of-type
+  ：last-of-type
+  ：only-child
+  ：only-of-type
+  
+  
+  
+伪元素（在html结构中没有的，用两个冒号书写）
+  ：：first-line
+  ：：first-letter
+  
+  
+  
+兄弟选择器
+  ·相邻兄弟选择器E+F
+  ·通用兄弟选择器E~F
