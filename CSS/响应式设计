@@ -1,0 +1,19 @@
+viewport
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+响应式的图片
+·大图随容器自动缩放，保持高宽比
+·max-width： 100%
+
+
+背景图片
+·background-size：cover（可裁切）
+·background-size：contain
+
+
+media query
+针对不同的屏幕，应用不同的样式
+
+
+字体设置：rem
