@@ -1,3 +1,5 @@
 JSON对象有两个方法： stringify（） 和  parse（），这两个方法分别用于把javascript对象序列化为json字符串和把json字符串解析为原生javascript值。    
 
 
+
+
