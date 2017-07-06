@@ -5,6 +5,7 @@
 		<title></title>
 	</head>
 	<body>
+			
 		<script type="text/javascript">
 			/***冒泡排序法***/
 			var arrSort = [20,30,10,40,0];
