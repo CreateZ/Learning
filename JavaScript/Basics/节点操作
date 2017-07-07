@@ -9,6 +9,7 @@ Node.compareDocumentPosition(node)   //返回一个7个比特位的二进制值�
 Node.isEqualNode(noe)  //返回布尔值，用于检查两个节点是否相等。所谓相等的节点，指的是两个节点的类型相同、属性相同、子节点相同。
 Node.normalize()   //用于清理当前节点内部的所有Text节点。它会去除空的文本节点，并且将毗邻的文本节点合并成一个。
 
+
 //ChildNode接口
 Node.remove()  //用于删除当前节点
 Node.before()  //
