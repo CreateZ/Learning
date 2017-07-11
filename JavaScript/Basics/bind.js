@@ -31,3 +31,5 @@ function fn(y, z) {
 }
 var fnn = fn.bind({x:2},5);
 console.log(fnn(7));//输出14
+
+
