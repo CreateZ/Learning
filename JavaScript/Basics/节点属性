@@ -18,3 +18,6 @@ Node.children  //返回指定节点的所有Element子节点
 Node.firstElementChild  //返回当前节点的第一个Element子节点
 Node.lastElementChild   //返回当前节点的最后一个Element子节点
 Node.childElementCount  //返回当前节点所有Element子节点的数目。
+
+
+
