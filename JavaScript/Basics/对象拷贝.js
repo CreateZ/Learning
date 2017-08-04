@@ -25,6 +25,8 @@
         }
     };
 
+
+
     //直接引用
     let conf2 = conf;
     conf2.adapter = 'mysql';
