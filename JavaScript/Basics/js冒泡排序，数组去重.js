@@ -40,6 +40,8 @@
 				}
 			}
 			console.log(arrrepeats);
+
+
 			/***数组去重 第二种方法***/
 			var arrRepeat2 = [1,1,2,2,3,3,4,4,5,5];
 			var jsonObj = {} , arrresult = [];
