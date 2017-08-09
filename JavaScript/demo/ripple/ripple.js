@@ -50,3 +50,6 @@ for (var i = 0; i < btn.length; i++) {
         ripple(e, this);
     });
 }
+
+
+
