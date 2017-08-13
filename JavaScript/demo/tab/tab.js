@@ -44,6 +44,7 @@
                 }
                 if(content.parentNode.classList.contains('sg-tabs-line')) {
                     var w = this.width;
+                    
                     var indicator = this.parentNode.nextElementSibling;
                     indicator.style.left = w * index + 'px';
                 }
