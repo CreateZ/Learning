@@ -8,4 +8,5 @@ var timer = setInterval(function(){
         document.querySelector('#turn').style.top = '0%';
         clearInterval(timer);
     }
+    
 },1);
