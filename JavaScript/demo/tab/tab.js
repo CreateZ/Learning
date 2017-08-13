@@ -6,6 +6,7 @@
     var getStyle = function(dom, attr) {
         return dom.currentStyle ? dom.currentStyle[attr] : getComputedStyle(dom, false)[attr];
     };
+    
     for(var i = 0; i < tabs.length; i++) {
         var tab = tabs[i].querySelectorAll('.sg-button-tab');
         tab[0].classList.add('active');
