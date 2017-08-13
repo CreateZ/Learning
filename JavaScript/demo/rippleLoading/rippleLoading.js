@@ -1,4 +1,5 @@
 var topNum = 100;
+
 var timer = setInterval(function(){
     document.querySelector('#turn').style.top = topNum + '%';
     topNum -= 0.05;
