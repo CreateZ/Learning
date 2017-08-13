@@ -20,6 +20,7 @@
 		var wHeight = window.innerHeight || document.documentElement.clientHeight;
 		return (coords.top >= 0 && coords.left >= 0 && coords.top <= wHeight);
 	}
+	
 })();
 
 
