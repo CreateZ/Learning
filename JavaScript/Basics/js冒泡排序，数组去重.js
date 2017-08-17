@@ -24,6 +24,8 @@
 			console.log(sortarr(arrSort));
 
 
+
+
 			/***数组去重 第一种方法***/
 			var arrRepeat = [1,1,2,21,3,4,5,5,4];
 			var arrrepeats = [];//[arrRepeat[0]];
