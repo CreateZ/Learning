@@ -15,6 +15,7 @@ setTimeout和setInterval的运行机制是，将指定的代码移出本次执�
     
     
     
+    
     参考：http://caibaojian.com/about-settimeout.html
 
 
