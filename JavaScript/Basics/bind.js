@@ -2,7 +2,9 @@
 
 //bind()方法
 
+
 //就是将一个函数绑定到一个对象，还可以将传入bind的实参绑定至this（函数式编程）。
+
 
 function f(y) {
     return this.x + y;
