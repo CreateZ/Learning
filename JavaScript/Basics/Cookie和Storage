@@ -16,3 +16,5 @@ Storage
 ·数据格式为字符串，可以用JSON解析
 ·有LocalStorage和SessionStorage两种类型，默认无过期时间（可以自己用程序逻辑实现过期时间）
 ·并不会随着HTTP请求发送给服务器
+
+
