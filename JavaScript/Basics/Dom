@@ -10,3 +10,5 @@ Text：标签之间或标签包含的文本
 Comment：HTML或XML的注释  
 DocumentFragment：文档的片段
 Document和Element是两个重要的DOM类。
+
+
