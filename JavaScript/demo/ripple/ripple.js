@@ -17,6 +17,8 @@ var animationEnd = function (elem, handler) {
 };
 
 
+
+
 function ripple(event, $this) {
     event = event || window.event;
     //获取鼠标位置
