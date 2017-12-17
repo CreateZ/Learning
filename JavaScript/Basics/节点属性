@@ -4,6 +4,8 @@ Node.nodeValue  //返回Text或Comment节点的文本值，只读
 Node.textContent  //返回当前节点和它的所有后代节点的文本内容，可读写
 Node.baseURI    //返回当前网页的绝对路径
 
+
+
 Node.ownerDocument  //返回当前节点所在的顶层文档对象，即document
 Node.nextSibling  //返回紧跟在当前节点后面的第一个兄弟节点
 Node.previousSibling  //返回当前节点前面的、距离最近的一个兄弟节点
