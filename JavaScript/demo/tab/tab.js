@@ -1,6 +1,7 @@
 /**
  * Created by think on 2017/6/18.
  */
+
 (function() {
     var tabs = document.querySelectorAll('.sg-tabs-block');
     var getStyle = function(dom, attr) {
