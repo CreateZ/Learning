@@ -7,12 +7,14 @@
 			dom.attachEvent("on" + type, handle);
 		}
 	};
+	
 	var transitionEnd = function(elem, handler) {
 		elem.addEventListener('transitionend', handler, false);
 		elem.addEventListener('webkitTransitionEnd', handler, false);
 		elem.addEventListener('mozTransitionEnd', handler, false);
 		elem.addEventListener('oTransitionEnd', handler, false);
 	};
+	
 	var deleteTransitionEnd = function(elem, handler) {
 		elem.removeEventListener('transitionend', handler, false);
 		elem.removeEventListener('webkitTransitionEnd', handler, false);
